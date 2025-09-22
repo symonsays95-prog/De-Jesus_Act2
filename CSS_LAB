@@ -1,0 +1,102 @@
+<!DOCTYPE hmtl>
+<html lang="eng">
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>GET TO KNOW ME</title>
+    </head>
+    <body>
+        <h1>WHO IS SYMON?</h1>
+
+        <h2>Menu</h2>
+        <nav class="navbar">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About Me</a></li>
+                <li><a href="">FAVORITE MOVIES</a></li>
+                <li><a href="">FAVORITE ARTISTS</a></li>
+                <li><a href="">Contacts</a></li>
+            </ul>
+        </nav>
+
+        <p>My name is Symon R. De Jesus. I am from Quezon City and I am 20 years old. I graduated from FEU Manila and now I am taking MMA course in FEU Tech. I like to enjoy my free time just by being at home. Watching movies, series, listening to music, making art, writing poetry or stories, or just bed rotting.</p>
+        <p>Wanna know more? Here are my favorites</p>
+
+        <h2>FAVORITE MOVIES</h2>
+        <ul>
+            <li>The Conjuring</li>
+            <img src="https://m.media-amazon.com/images/M/MV5BMTM3NjA1NDMyMV5BMl5BanBnXkFtZTcwMDQzNDMzOQ@@._V1_FMjpg_UX1000_.jpg" width="300">
+            <h4>Summary</h4>
+            <p>The Conjuring is about one of the most known cases investigated by Ed and Lorraine Warren, famous paranormal investigators. The movie is about the Perron family where they experience haunting and horrific activities.</p>
+            <li>Fantastic Four: First Steps</li>
+            <img src="https://lumiere-a.akamaihd.net/v1/images/au_movies_marvel_fantasticfourfirststeps_official_poste_daf083fc.jpeg?region=0%2C0%2C540%2C810" width="300">
+            <h4>Summary</h4>
+            <p>A super family includes Reed Richards, Sue Storm, Johnny Storm, and The Thing, faces a great threat that endagers life on Earth. A cosmic entity, Galactus, places a grave danger to their lives.</p>
+            <li>Thunderbolts*</li>
+            <img src="https://lumiere-a.akamaihd.net/v1/images/teaser_1sht_-_rgb_for_online_use_only_6b92ba3f.jpeg?region=0%2C0%2C743%2C1100" width="300">
+            <h4>Summary</h4>
+            <p>A group of anti-heroes join forces to fights off the forces that haunts  them from their deepest and darkest pasts.</p>
+            <li>Little Women</li>
+            <img src="https://upload.wikimedia.org/wikipedia/en/9/9d/Little_Women_%282019_film%29.jpeg" width="300">
+            <h4><Summary></Summary></h4>
+            <p>Four bright, smart, and hopeful sisters: Jo, Amy, Meg, and Beth embarks on a journey on how they become the woman that they dreamed of from when they were kids.</p>
+            <li>Dune Part 1 and Part 2</li>
+            <img src="https://m.media-amazon.com/images/M/MV5BNTc0YmQxMjEtODI5MC00NjFiLTlkMWUtOGQ5NjFmYWUyZGJhXkEyXkFqcGc@._V1_.jpg" width="300">
+            <h4>Summary</h4>
+            <p>Paul Atreides is destined to take the throne of his father. However, he must fulfill a prophecy as the Kwisatz Haderach and become one with a treacherous tribe, the Fremen. It is based on the novel "Dune" by Frank Herbert.</p>
+            <li>Past Lives</li>
+            <img src="https://m.media-amazon.com/images/M/MV5BYjQyMTNhNjUtN2VmYy00NWRhLTkwOTctMGVmNTBmNDIxYjZhXkEyXkFqcGc@._V1_.jpg" width="300">
+            <h4>Summary</h4>
+            <p>Two childhood sweethearts were separated when Nora migrates from USA. Years later, fate reconnects them and relive their childhood memories. Will they be able to bring back their old selves?</p>
+            <li>Avengers: Infinity War</li>
+            <img src="https://m.media-amazon.com/images/M/MV5BMjMxNjY2MDU1OV5BMl5BanBnXkFtZTgwNzY1MTUwNTM@._V1_.jpg" width="300">
+            <h4>Summary</h4>
+            <p>The Avengers must assemble to stop Thanos to accomplish is dire mission to collect the Infinity Stones. Which poses a threat for every living beings in the universe.</p>
+            <li>Everything Everywhere All At Once</li>
+            <img src="https://m.media-amazon.com/images/M/MV5BOWNmMzAzZmQtNDQ1NC00Nzk5LTkyMmUtNGI2N2NkOWM4MzEyXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" width="300">
+            <h4>Summary</h4>
+            <p>Evelyn Wang juggles being a wife, a mother, a business woman, a daughter, and the savior of the Multiverse. She must defeat a powerful entity that could end the existense of life in every universe.</p>
+        </ul>
+
+        <p>Those are just some of the few I can mention. Wanna know about my favorite music artists? Here is the list.</p>
+
+        <h2>FAVORITE ARTISTS</h2>
+        <ol>
+            <li>Taylor Swift</li>
+            <li>Keshi</li>
+            <li>Harry Styles</li>
+            <li>Olivia Rodrigo</li>
+            <li>Conan Gray</li>
+        </ol>
+
+        <table>
+            <caption>My favorite artists and my favorite songs from their discography</caption>
+            <tr>
+                <thead>
+                <th> Taylor Swift </th>
+                <th> Keshi </th>
+                <th> Harry Styles </th>
+                <th> Olivia Rodrigo </th>
+                <th> Conan Gray </th>
+            </tr>
+                </thead>
+            <tr>
+                <td> Fortnight </td>
+                <td> Bodies </td>
+                <td> Satellite </td>
+                <td> The Grudge </td>
+                <td> The Story </td>
+            </tr>
+        </table>
+
+        <div>
+        <footer>
+            Made by: Symon R. De Jesus
+            &copy; copyright reserved
+        </footer>
+        </div>
+        
+    </body>
+    </html>
