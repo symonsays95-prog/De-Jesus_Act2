@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign Up Form</title>
+  <style>
+  html {
+    text-align: center;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:beige
+}
+table {
+  margin: 20px auto; 
+  border-collapse: collapse;
+  text-align: center; 
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 8px 15px;
+}
+h2 {
+    text-transform: uppercase;
+    font-size: 50px;
+}
+button {
+    margin-top: 10px;
+    background-color: rgb(150, 203, 255);
+    cursor: pointer;
+}
+</style>
+
+  <script type="text/javascript" src="java.js" defer></script>
+</head>
+<body>
+
+  <h2>Sign Up Form</h2>
+  <form id="signupForm">
+    <input type="text" id="idNumber" placeholder="ID Number" required>
+    <input type="text" id="firstName" placeholder="First Name" required>
+    <input type="text" id="middleName" placeholder="Middle Name">
+    <input type="text" id="lastName" placeholder="Last Name" required>
+    <input type="text" id="gender" placeholder="Gender" required> 
+    <input type="text" id="birthday" placeholder="Birthday" required>
+
+    <button type="button" onclick="saveData()">Save</button>
+  </form>
+
+  <table id="dataTable">
+    <thead>
+      <tr>
+        <th>ID Number</th>
+        <th>First Name</th>
+        <th>Middle Name</th>
+        <th>Last Name</th>
+        <th>Gender</th>
+        <th>Birthday</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+
+</body>
+</html>
+
+
+// Java
+
+
+function saveData() {
+      // Get values from input fields
+      const idNumber = document.getElementById('idNumber').value;
+      const firstName = document.getElementById('firstName').value;
+      const middleName = document.getElementById('middleName').value;
+      const lastName = document.getElementById('lastName').value;
+      const gender = document.getElementById('gender').value;
+      const birthday = document.getElementById('birthday').value;
+
+      // Check if required fields are filled
+      if (!idNumber || !firstName || !lastName || !gender || !birthday) {
+        alert("Please fill in all required fields.");
+        return;
+      }
+
+      // Create a new table row
+      const table = document.getElementById('dataTable').getElementsByTagName('tbody')[0];
+      const newRow = table.insertRow();
+
+      // Insert cells and values
+      newRow.insertCell(0).textContent = idNumber;
+      newRow.insertCell(1).textContent = firstName;
+      newRow.insertCell(2).textContent = middleName;
+      newRow.insertCell(3).textContent = lastName;
+      newRow.insertCell(4).textContent = gender;
+      newRow.insertCell(5).textContent = birthday;
+
+      // Clear the form after saving
+      document.getElementById('signupForm').reset();
+    }
